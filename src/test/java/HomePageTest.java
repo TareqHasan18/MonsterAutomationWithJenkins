@@ -70,6 +70,11 @@ public class HomePageTest {
         driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[3]/a")).click();
     }
 
+    @Test
+    public void ResumeHelpLinkTest(){
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[4]/a")).click();
+    }
+
 
     @AfterMethod
     public static void tearDown(){
