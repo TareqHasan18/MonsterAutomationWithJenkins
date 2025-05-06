@@ -78,7 +78,6 @@ public class HomePageTest {
     @Test
     public void UploadResumeLinkTest(){
         driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[5]/a")).click();
-        System.out.println("hello");
     }
 
 
