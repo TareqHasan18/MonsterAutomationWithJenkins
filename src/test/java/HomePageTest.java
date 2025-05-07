@@ -87,7 +87,7 @@ public class HomePageTest {
 
     @Test
     public void LearnMoreLinkTest(){
-        driver.findElement(By.xpath("//*[@=\"gatsby-focus-wrapper\"]/main/div/div/a")).click();
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/main/div/div/a")).click();
     }
 
 
