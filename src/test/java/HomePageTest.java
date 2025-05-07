@@ -80,6 +80,16 @@ public class HomePageTest {
         driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[5]/a")).click();
     }
 
+    @Test
+    public void EmployersPostJobsLinkTest(){
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[3]/div/div/a")).click();
+    }
+
+    @Test
+    public void LearnMoreLinkTest(){
+        driver.findElement(By.xpath("//*[@=\"gatsby-focus-wrapper\"]/main/div/div/a")).click();
+    }
+
 
     @AfterMethod
     public static void tearDown(){
